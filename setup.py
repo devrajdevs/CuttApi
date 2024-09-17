@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='CuttApi',
     packages=find_packages(exclude=['docs']),
-    version='1.0',
+    version='1.0.1',
     license='MIT',
     description='One of the best ways of shortening URLs using Cuttly URL shortener just by entering your API key and seeing the rest that is done automatically by the Module',
     long_description=open('README.md').read(),
@@ -11,7 +11,7 @@ setup(
     author='Devraj Therani',
     author_email='ttctlc96e@mozmail.com',
     url='https://github.com/devrajdevs/CuttApi',
-    download_url='https://github.com/devrajdevs/CuttApi/archive/refs/tags/v1.0.tar.gz',
+    download_url='https://github.com/devrajdevs/CuttApi/archive/refs/tags/v1.0.1.tar.gz',
     keywords=['API', 'SIMPLE', 'URL', 'SHORTENER'],
     install_requires=[
         'requests',
